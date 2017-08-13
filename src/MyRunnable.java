@@ -12,6 +12,7 @@ public class MyRunnable implements Runnable {
     }
 
     private void go() {
+        /** -----------------------Призупиняємо роботу потоку на 2000 мілі секунд**/
         try {
             Thread.sleep(2000);
         } catch (InterruptedException e) {
